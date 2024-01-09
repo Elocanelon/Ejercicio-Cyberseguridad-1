@@ -1,0 +1,14 @@
+1-Se utilizo un script.bash para recorrer todos los archivos y obtener los hash:
+#!/bin/bash
+files=$(ls)
+for file in $files; do
+md5sum $files
+done
+
+2-despues se verificacion si hubieron modificaciones y se encontraron 2 modificaciones:
+log.txt
+original  0b29406e348cd5f17c2fd7b47b1012f9
+alterado  f2b0428b975452afbc641e46a042231b
+script.py
+original   6bb9ec43660194bc066bd8b4d35b151
+alterado   66bb9ec43660194bc066bd8b4d35b151
