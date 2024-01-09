@@ -1,0 +1,44 @@
+Plan de continuida de negocios 1	
+ombre de la Empresa: ABC.inc
+
+I. Introducción
+
+A. Objetivo del Plan
+- Garantizar la continuidad de las operaciones críticas de la empresa durante eventos disruptivos.
+
+B. Alcance del Plan
+- Cubre todas las unidades de negocio y ubicaciones de XYZ Solutions, Inc.
+
+C. Responsabilidades
+- Enumerar las funciones y responsabilidades de las personas clave involucradas en la ejecución del plan.
+
+II. Evaluación de Riesgos
+
+A. Identificación de Riesgos
+- Enumerar los posibles eventos que podrían interrumpir las operaciones (por ejemplo, desastres naturales, ciberataques, etc.).
+
+B. Análisis de Impacto
+- Evaluar el impacto potencial de cada riesgo en las operaciones críticas y los activos de la empresa.
+
+III. Estrategias de Mitigación y Recuperación
+
+A. Medidas de Prevención
+- Describir las acciones preventivas para reducir la probabilidad de ocurrencia de los riesgos identificados.
+
+B. Planes de Recuperación
+- Detallar los procedimientos específicos para restablecer las operaciones críticas después de un evento disruptivo.
+
+IV. Comunicación y Coordinación
+
+A. Lista de Contactos
+- Proporcionar información de contacto actualizada para todos los empleados clave, proveedores y partes interesadas.
+
+B. Procedimientos de Comunicación
+- Especificar cómo se comunicará la información durante y después de un evento disruptivo.
+
+V. Infraestructura y Recursos Alternativos
+
+A. Ubicaciones Alternativas
+- Identificar sitios alternativos para operar en caso de que las instalaciones principales no estén disponibles.
+
+B. Respaldo de Datos
