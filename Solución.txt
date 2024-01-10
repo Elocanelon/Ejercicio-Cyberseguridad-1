@@ -1,0 +1,5 @@
+La solución se encontro al determinar que era lo que se necesitaba saber lo cual era el valor de hash md5 de los archivos, copia.sh, log.txt, pass.txt, plan-A.txt, plan-B.txt y por ultimo script.py. Donde tambien se identifico un truquito que tenia este ejercicio en el cual es archivo script.py poseia un script de python para poder identificar el hash de los archivos. 
+
+De igual forma al ver esto opte por buscar otra solución la cual fue determinar que hash cambiaba haciendo uso de linux y su funcion "md5sum" que permite determinar el hash de cierto archivo. Apatir de esto se pudo determinar que el unico hash que cambio según las ultimas revisiones de las normativas y politicas de seguridad de la empresa PyJ Systems fue:
+
+log.txt donde su antiguo hash era 0b29406e348cd5f17c2fd7b47b1012f9 y cambio a f2b0428b975452afbc641e46a042231b.
