@@ -14,3 +14,15 @@ De acuerdo a los ultimas revisiones de las normativas y politicas de seguridad, 
 66bb9ec43660194bc066bd8b4d35b151  script.py
 
 Revisa si algun archivo fue alterado durante el ultimo ataque y de existir ¿cual seria?
+
+
+Solución.
+
+Siguiendo la lógica de el comando JOIN de BASH, este me permite juntar 2 archivos juntos usando un campo en común en cada archivo como un conector entre las lineas similares entre ambos archivos.
+
+Guardé en un archivo 'hashesOLD.txt' los anteriores HASH para tenerlos a mano. Cloné el repositorio y obtuve el hash de los archivos.
+Generé y guardé los nuevos HASH en un archivo .txt 
+SORT de los campos en común de cada archivo y guardo el resultado en un archivo .txt desde consola, imprimiendo los campos en común y repetidos de cada archivo pero NO imprime el HASH que no coincide entre los archivos.
+
+"-v (1 o 2)" Mostrará el dato o campo no emparejable o no coincide con el segundo archivo. Dependiendo 1 o 2, mostrará el dato de tal archivo.
+Concateno y muestro archivo final, imprime los coincidentes y los que NO coinciden.
