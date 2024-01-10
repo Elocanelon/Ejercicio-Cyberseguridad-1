@@ -16,9 +16,11 @@ def generate_files_md5(path):
 def compare_files_hashes(new_hashes, old_hashes):
     for file, md5_hash in new_hashes.items():
         if md5_hash == old_hashes[file]:
-            print(f'{file} OK')
+            print(
+                f' Original: {old_hashes[file]} Generated: {new_hashes[file]} {file} OK')
         else:
-            print(f'{file} FAIL')
+            print(
+                f' Original: {old_hashes[file]} Generated: {new_hashes[file]} {file} FAIL')
 
 
 if __name__ == '__main__':
