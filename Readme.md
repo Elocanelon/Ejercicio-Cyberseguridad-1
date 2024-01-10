@@ -19,10 +19,11 @@ R: Después de verificar la integridad de cada archivo, se evidencia que el arch
 
 Hash comparison script output:
 
+```
 File tampered with: /home/kali/Ejercicio-Cyberseguridad-1/PyJ Systems/log.txt
 File integrity verified and correct: /home/kali/Ejercicio-Cyberseguridad-1/PyJ Systems/script.py
 File integrity verified and correct: /home/kali/Ejercicio-Cyberseguridad-1/PyJ Systems/plan-B.txt
 File integrity verified and correct: /home/kali/Ejercicio-Cyberseguridad-1/PyJ Systems/plan-A.txt
 File integrity verified and correct: /home/kali/Ejercicio-Cyberseguridad-1/PyJ Systems/pass.txt
 File integrity verified and correct: /home/kali/Ejercicio-Cyberseguridad-1/PyJ Systems/copia.sh
-
+```
