@@ -28,4 +28,4 @@ backup_hash_list = [
 for hash, file in backup_hash_list:
     hash_md5 = calcular_md5sum(file)
     if hash_md5 != hash:
-        print(f"El hash MD5 del archivo '{file}' es:\n (x) {hash_md5}\n (o){hash}\n")
+        print(f"El hash MD5 del archivo '{file}' es:\n (x) {hash_md5}\n (o) {hash}\n")
