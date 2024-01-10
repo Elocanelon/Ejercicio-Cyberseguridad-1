@@ -14,3 +14,15 @@ De acuerdo a los ultimas revisiones de las normativas y politicas de seguridad, 
 66bb9ec43660194bc066bd8b4d35b151  script.py
 
 Revisa si algun archivo fue alterado durante el ultimo ataque y de existir ¿cual seria?
+
+R: Después de verificar la integridad de cada archivo, se evidencia que el archivo log.txt presenta alteraciones. Con poco contexto, esto podría suponer que el presunto atacante quiso borrar su rastro al momento de entrar al sistema. Sin embargo, en un contexto realista un archivo de log.txt debería cambiar constantemente por lo que aunque el atacante haya manipulado el log.txt, realmente su modificación no presume garantías de que así haya sido.
+
+Hash comparison script output:
+
+File tampered with: /home/kali/Ejercicio-Cyberseguridad-1/PyJ Systems/log.txt
+File integrity verified and correct: /home/kali/Ejercicio-Cyberseguridad-1/PyJ Systems/script.py
+File integrity verified and correct: /home/kali/Ejercicio-Cyberseguridad-1/PyJ Systems/plan-B.txt
+File integrity verified and correct: /home/kali/Ejercicio-Cyberseguridad-1/PyJ Systems/plan-A.txt
+File integrity verified and correct: /home/kali/Ejercicio-Cyberseguridad-1/PyJ Systems/pass.txt
+File integrity verified and correct: /home/kali/Ejercicio-Cyberseguridad-1/PyJ Systems/copia.sh
+
