@@ -1,0 +1,13 @@
+Despues de analizar los hash de los archivos se noto que los siguientes
+archivos han sido comprometidos.
+
+El hash MD5 del archivo 'log.txt' es:
+ (x) f2b0428b975452afbc641e46a042231b
+ (o) 0b29406e348cd5f17c2fd7b47b1012f9
+
+El hash MD5 del archivo 'script.py' es:
+ (x) 1a51cc0d5a3ab908698c185a5116ff3d
+ (o) 66bb9ec43660194bc066bd8b4d35b151
+
+Donde (x) es el hash del archivo actual y (o) el hash del ultimo respaldo
+de dicho archivo.
