@@ -14,3 +14,7 @@ De acuerdo a los ultimas revisiones de las normativas y politicas de seguridad, 
 66bb9ec43660194bc066bd8b4d35b151  script.py
 
 Revisa si algun archivo fue alterado durante el ultimo ataque y de existir ¿cual seria?
+
+Se indentifico que el unico archivo que sufrio alteraciones fue log.txt debido que su hash cambio de 0b29406e348cd5f17c2fd7b47b1012f9 a f2b0428b975452afbc641e46a042231b. 
+
+![Solución](https://github.com/gabe-cloud/Ejercicio-Cyberseguridad-1/assets/109767094/dd74c0bf-04a6-46c8-b284-4138998cc6c3)
