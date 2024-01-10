@@ -1,0 +1,5 @@
+El archivo comprometido es log.txt
+
+Con el comando md5sum obtuve el hash de cada uno de los archivos, y al comparar manualmente los resultados en log.txt no coincidia
+
+el arrojado por md5sum y el reportado por la empresa.
