@@ -6,13 +6,14 @@ Durante las evaluaciones se verifico que la informacion sigue disponible y confi
 
 De acuerdo a los ultimas revisiones de las normativas y politicas de seguridad, estos son los hash md5 de los archivos 
 
+```
 90965b0eb20e68b7d0b59accd2a3b4fd  copia.sh
 0b29406e348cd5f17c2fd7b47b1012f9  log.txt
 6d5e43a730490d75968279b6adbd79ec  pass.txt
 129ea0c67567301df1e1088c9069b946  plan-A.txt
 4e9878b1c28daf4305f17af5537f062a  plan-B.txt
 66bb9ec43660194bc066bd8b4d35b151  script.py
-
+```
 Revisa si algun archivo fue alterado durante el ultimo ataque y de existir ¿cual seria?
 
 R: Después de verificar la integridad de cada archivo, se evidencia que el archivo log.txt presenta alteraciones. Con poco contexto, esto podría suponer que el presunto atacante quiso borrar su rastro al momento de entrar al sistema. Sin embargo, en un contexto realista un archivo de log.txt debería cambiar constantemente por lo que aunque el atacante haya manipulado el log.txt, realmente su modificación no presume garantías de que así haya sido.
