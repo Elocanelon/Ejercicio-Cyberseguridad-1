@@ -14,3 +14,21 @@ De acuerdo a los ultimas revisiones de las normativas y politicas de seguridad, 
 66bb9ec43660194bc066bd8b4d35b151  script.py
 
 Revisa si algun archivo fue alterado durante el ultimo ataque y de existir ¿cual seria?
+
+SOLUCION:
+
+Para realizar la evaluacion de la integridad de los archivos que hay dentro de la carpeta, 
+    
+    --primero se creo un nuevo archivo llamado "last-version-hash.txt" que contenia las ultimas versiones de los hash md5 de la informacion vulnerada.
+    
+    --luego a traves de la terminal me ubique en la ruta dentro de la carpeta y se ejecuto el comando "md5sum -c last-version-hash.txt" el cual dio como resultado
+    
+    copia.sh: OK
+    log.txt: FAILED
+    pass.txt: OK
+    plan-A.txt: OK
+    plan-B.txt: OK
+    script.py: OK
+    md5sum: WARNING: 1 computed checksum did NOT match
+
+    Por lo tanto podemos afirmar que el archivo "log.txt" fue alterado.
