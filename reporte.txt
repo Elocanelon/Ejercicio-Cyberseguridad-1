@@ -1,0 +1,8 @@
+Basándonos en los hashes proporcionados gracias a la última revisión, podemos determinar que los archivos no comprometidos fueron:
+- copia.sh
+- pass.txt
+- plan-A.txt
+- plan-B.txt
+- script.py
+
+El único alterado fue log.txt, el hash obtenido fue f2b0428b975452afbc641e46a042231b mientras que el proporcionado fue 0b29406e348cd5f17c2fd7b47b1012f9.
