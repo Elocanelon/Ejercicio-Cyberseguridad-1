@@ -14,3 +14,11 @@ De acuerdo a los ultimas revisiones de las normativas y politicas de seguridad, 
 66bb9ec43660194bc066bd8b4d35b151  script.py
 
 Revisa si algun archivo fue alterado durante el ultimo ataque y de existir ¿cual seria?
+
+---
+Se utilizaron dos métodos:
+
+1. Utilizando el comando md5sum en la terminal se obtiene el hash de cada archivo y se comparó con el dado en el ejercicio, dando como resultado que el archivo log.txt fue modificado y/o alterado.
+el hash resultante de log.txt es f2b0428b975452afbc641e46a042231b
+
+2. Utilizando el script que indica el ejercicio, se obtuvo el mismo resultado.
