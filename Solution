@@ -1,0 +1,43 @@
+Despues de revisar y comparar los Hashes con Powershell, se detecto que el archivo "log.txt" a sido modificado durante el ataque.
+
+PS C:\Users\MatiasXeneize\Desktop\HASH> cd PyJSystems
+PS C:\Users\MatiasXeneize\Desktop\HASH\PyJSystems> Get-FileHash -Path Log.txt -Algorithm MD5
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+MD5             F2B0428B975452AFBC641E46A042231B                                       C:\Users\MatiasXeneize\Deskto...
+
+
+PS C:\Users\MatiasXeneize\Desktop\HASH\PyJSystems> Get-FileHash -Path copia.sh -Algorithm MD5
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+MD5             90965B0EB20E68B7D0B59ACCD2A3B4FD                                       C:\Users\MatiasXeneize\Deskto...
+
+
+PS C:\Users\MatiasXeneize\Desktop\HASH\PyJSystems> Get-FileHash -Path pass.txt -Algorithm MD5
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+MD5             6D5E43A730490D75968279B6ADBD79EC                                       C:\Users\MatiasXeneize\Deskto...
+
+
+PS C:\Users\MatiasXeneize\Desktop\HASH\PyJSystems> Get-FileHash -Path plan-A.txt -Algorithm MD5
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+MD5             129EA0C67567301DF1E1088C9069B946                                       C:\Users\MatiasXeneize\Deskto...
+
+
+PS C:\Users\MatiasXeneize\Desktop\HASH\PyJSystems> Get-FileHash -Path plan-B.txt -Algorithm MD5
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+MD5             4E9878B1C28DAF4305F17AF5537F062A                                       C:\Users\MatiasXeneize\Deskto...
+
+
+PS C:\Users\MatiasXeneize\Desktop\HASH\PyJSystems> Get-FileHash -Path script.py -Algorithm MD5
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+MD5             66BB9EC43660194BC066BD8B4D35B151                                       C:\Users\MatiasXeneize\Deskto...
