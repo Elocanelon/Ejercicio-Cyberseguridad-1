@@ -15,7 +15,6 @@ De acuerdo a los ultimas revisiones de las normativas y politicas de seguridad, 
 
 Revisa si algun archivo fue alterado durante el ultimo ataque y de existir ¿cual seria?
 
----
 Se utilizaron dos métodos:
 
 1. Utilizando el comando md5sum en la terminal se obtiene el hash de cada archivo y se comparó con el dado en el ejercicio, dando como resultado que el archivo log.txt fue modificado y/o alterado.
