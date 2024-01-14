@@ -14,3 +14,5 @@ De acuerdo a los ultimas revisiones de las normativas y politicas de seguridad, 
 66bb9ec43660194bc066bd8b4d35b151  script.py
 
 Revisa si algun archivo fue alterado durante el ultimo ataque y de existir ¿cual seria?
+
+Revisando sobre el MD5 encontre el comando md5sum que trae el equivalente del archivo en hash md5, se puede notar que la carpeta log.txt es la unica que no coincide con el historial de archivos entregado
