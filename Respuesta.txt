@@ -1,0 +1,15 @@
+Primero se obtuvo los hashes md5 de los archivos que posiblemente fueron alterados. Utilizando el comando md5sum y redireccionando el resultado a un archivo .txt:
+
+md5sum script.py > hashscript.txt & nano hashscript.txt
+
+Repitiendo el proceso con todos los archivos, para finalmente compararlos con los hashes dados.
+
+El comando usado para comparar ambos archivos con los hashes a evaluar fue:
+
+cmp -b --print-bytes hashcopiash.txt copiash.txt; if [ $? -eq 0 ]; then echo "Los hashes son iguales"; else echo 'Los hashes son diferentes'; fi
+
+Luego de aplicar este comando con todos los archivos, el resultado fue que el archivo log.txt fue alterado.
+
+cmp -b --print-bytes hashlog.txt log.txt; if [ $? -eq 0 ]; then echo "Los hashes son iguales"; else echo 'Los hashes son diferentes'; fi 
+hashlog.txt log.txt son distintos: el byte 1, en la línea 1 es 146 f  60 0
+Los hashes son diferentes
